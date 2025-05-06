@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <div className="h-full">
+        <div className="h-screen">
           <Header />
           <Sidebar />
           {children}
